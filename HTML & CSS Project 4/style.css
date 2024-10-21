@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.nav{
+  background-color: #0A0B0D;
+  width: 75%;
+  height: 270px;
+  border-radius: 10px;
+  display: flex;
+  
+}
+.upper-area{
+  color: white;
+  width: 50%;
+}
+.upper-area h1{
+    font-weight: 700;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+.upper-area p {
+  margin-top: 10px;
+  margin-left: 35px;
+}
+.upper-area button{
+  margin-top: 10px;
+  margin-left: 35px;
+  background-color: #dd0000;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 5px;
+  border:2px solid #0A0B0D;
+}
+.photo2{
+  background-image: url(marcelo3.jpeg);
+  background-size: cover;
+  height: 270px;
+  width: 50%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+
+/* section */
+section{
+  display: flex;
+  justify-content: center; 
+  margin-top: 75px;
+}
+
+
+
+
+.all_area{
+  width: 75%;
+  display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+
+}
+
+.left_area{
+  background-color: #0A0B0D;
+  padding: 10px;
+  width: 12%;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+}
+
+.left_area li{
+  list-style-type: none;
+}
+
+.left_area button{
+  width: 125px;
+  padding:7px 10px;
+  border: 2px solid #0A0B0D;
+  border-radius: 5px;
+}
+.left_area button:hover{
+  background-color: #dd0000;
+  cursor: pointer;
+  color: #E8E8E8;
+}
+.photo{
+  background-image: url(1234f.jpg);
+  background-size:contain;
+  background-repeat: no-repeat;
+  width: 20%;
+  height: 250px;  
+  /* background-color: blue; */
+  display: inline-block;
+  border: 2px solid #E8E8E8;
+  border-radius: 5px;
+}
+.right_area{
+  display: flex;
+  justify-content: space-evenly;
+ flex-wrap: wrap;
+ width: 100%;
+ gap: 5px;
+
+}
+
+/* footer */
+
+ footer{
+  display: flex;
+  justify-content: center;
+  
+ }
+.footer_area{
+  background-color: #0A0B0D;
+  height: 270px;
+  margin-top: 100px;
+  color: white;
+  width: 95%;
+  border-radius: 5px;
+  
+}
+.footer_area h1{
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.foot_list {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.foot_list li{
+  list-style: none;
+}
